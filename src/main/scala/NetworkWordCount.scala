@@ -9,6 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   *
   * SparkStreaming 学习
   * 从socket 端读取数据并统计词频
+  * jar3
   */
 
 // /opt/wwd/spark/bin/spark-submit --master spark://cluster1:7077 --executor-memory 5G --total-executor-cores 20 --driver-memory 6G --class main.scala.NetworkWordCount /opt/lg/NetEase/jar3/netEaseLearn.jar cluster1 9999

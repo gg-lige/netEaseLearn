@@ -8,10 +8,13 @@ import scala.io.Source
   * Created by lg on 2018/5/28.
   *
   * 流数据模拟器
+  * jar2
   */
 //  查找到linux 下scala 的位置
 //  /opt/wwd/scala/lib/scala-swing_2.11-1.0.2.jar /opt/wwd/scala/lib/scala-library.jar /opt/wwd/scala/lib/scala-actors-2.11.0.jar
-//  java -cp /opt/lg/NetEase/netEaseLearn.jar main.scala.StreamingSimulation /opt/lg/minD.txt 9999 1000
+//  java -cp /opt/lg/NetEase/jar2/netEaseLearn.jar main.scala.StreamingSimulation /opt/lg/minD.txt 9999 1000
+
+
 object StreamingSimulation {
   //定义随机获取整数的方法
   def index(length: Int) = {

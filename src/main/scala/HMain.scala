@@ -9,6 +9,8 @@ import org.apache.spark.sql.SparkSession
 /**
   * Created by lg on 2018/4/28.
   * Hbase 学习
+  *
+  * jar1
   */
 object HMain {
   def main(args: Array[String]): Unit = {
